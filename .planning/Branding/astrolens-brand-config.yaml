@@ -1,0 +1,232 @@
+# AstroLens Brand Configuration
+# See Astrology in AR
+
+execution_context:
+  budget_tier: "bootstrapped"
+  launch_channel: "app-store"
+  maturity_stage: "pre-launch"
+  depth_level: "focused"
+  tone: "authentic, founder-led"
+  quality_bar: "premium"
+
+brand:
+  name: "AstroLens"
+  tagline: "See Astrology in AR"
+  archetype: "sage-explorer"
+  voice: "Grounded yet wondrous, technical yet accessible"
+  domain: "Spiritual Technology / Wellness Tech"
+  description: |
+    AstroLens is an iPhone-first AR astrology application that transforms birth charts 
+    into living, navigable 3D visualizations. Built with SwiftUI and RealityKit, it 
+    enables anyone to visually understand their chart through immersive spatial computing.
+
+theme:
+  name: "Cosmic Spatial Computing"
+  description: "Premium iOS AR aesthetics meets ethereal cosmic visualization. Luxury instrument meets planetarium."
+  metaphor: "A multi-dimensional grand clock floating in AR space—the self at center"
+  mood_keywords:
+    - cosmic
+    - ethereal
+    - spatial
+    - luminous
+    - premium
+    - mystical-tech
+    - contemplative
+    - futuristic
+    - glass-morphic
+    - celestial
+
+palette:
+  primary:
+    name: "Cosmic Deep"
+    hex: "#0f172a"
+    role: "60% backgrounds, depth layers, space void"
+  secondary:
+    name: "Nebula Purple"
+    hex: "#7c3aed"
+    role: "25% primary accent, brand identity, highlights"
+  accent:
+    name: "Stellar Gold"
+    hex: "#fbbf24"
+    role: "10% Sun energy, premium moments, CTAs"
+  support:
+    name: "Lunar Silver"
+    hex: "#e2e8f0"
+    role: "5% Moon energy, clarity, secondary text"
+  signal:
+    name: "Mars Red"
+    hex: "#ef4444"
+    role: "Action indicators, Mars planetary color"
+
+planetary_colors:
+  sun: "#fbbf24"
+  moon: "#e2e8f0"
+  mars: "#ef4444"
+  mercury: "#34d399"
+  jupiter: "#fde68a"
+  venus: "#f9a8d4"
+  saturn: "#94a3b8"
+  rahu: "#a78bfa"
+  ketu: "#fb923c"
+
+typography:
+  header:
+    font: "SF Pro Display"
+    weights: ["Regular", "Medium", "Semibold", "Bold"]
+    display_weight: "Semibold"
+    emphasis_weight: "Bold"
+    case: "title case"
+  body:
+    font: "SF Pro Text"
+    weights: ["Regular", "Medium"]
+  data:
+    font: "SF Mono"
+    weights: ["Regular"]
+  display:
+    font: "New York"
+    weights: ["Regular", "Semibold"]
+
+materials:
+  - "translucent glass"
+  - "polished brass"
+  - "etched silver"
+  - "celestial crystal"
+  - "frosted acrylic"
+  - "brushed titanium"
+  - "luminescent resin"
+  - "obsidian"
+  - "mother of pearl"
+  - "meteorite texture"
+  - "holographic film"
+  - "smoked glass"
+
+photography:
+  style: "Apple product photography meets cosmic cinematography, clean centered compositions, generous negative space"
+  environment: "Deep space with nebula gradients, ethereal glows, AR spatial overlays"
+  constraint: "Focus on device and 3D visualization, no human faces, premium minimalist aesthetic"
+  camera: "iPhone 15 Pro product photography style, soft volumetric lighting"
+
+illustration:
+  style: "3D geometric forms, luminous rings, planetary orbs, ethereal light beams, glass-morphic UI"
+  references: "Apple Vision Pro marketing, Interstellar cinematography, planetarium design, luxury watch advertising"
+
+sigil:
+  description: "Concentric ring system with glowing center point—representing the self at the center of cosmic layers"
+  components:
+    - "Central Self (Ascendant)"
+    - "Orbital Rings (Houses, Signs, Nakshatras)"
+    - "Luminous Nodes (Planets)"
+    - "Connecting Beams (Aspects)"
+
+audience:
+  persona_name: "The Curious Seeker"
+  aesthetic_affinity: "Apple Design Award apps, premium wellness tech, beautiful data visualization"
+  aspirational_brands: "Apple, Headspace (design), Oura Ring, Noom"
+  emotional_register: "curious, contemplative, quietly awe-inspired, intellectually engaged"
+
+competitive_context:
+  avoid_visual_patterns: "fortune-teller mysticism, new-age pastels, zodiac clichés, crystal aesthetics"
+  differentiate_from: "Co-Star (text bubbles), The Pattern (dense text), generic horoscope apps"
+  occupy_territory: "spatial computing meets astrology education — premium AR visualization, not fortune-telling"
+
+positioning:
+  statement: "The only astrology app that teaches visual intuition through immersive 3D AR visualization"
+  hero_headline: "See Astrology in AR"
+  identity_pillars: ["visual intuition", "spatial computing", "grounded mysticism", "guided discovery"]
+
+products:
+  hero:
+    name: "AstroLens iOS App"
+    description: "AR astrology visualization app featuring the Grand Clock 3D experience"
+    physical_form: "iPhone displaying luminous 3D grand clock floating in AR space, glass-morphic UI cards, glowing planetary orbs with connecting beams"
+  
+  app_experience:
+    - name: "Grand Clock Visualization"
+      description: "5 concentric rings with 108 pada divisions, all mathematically exact"
+    - name: "AI Visual Tutor"
+      description: "Guided exploration with tool-calling AI that controls the scene"
+    - name: "Multi-scale AR"
+      description: "Palm, Desk, Room, and Dome viewing modes"
+    - name: "Time Scrubber"
+      description: "Navigate from birth to present with animated transits"
+  
+  category: "iOS AR wellness application"
+
+visual_identity:
+  core_metaphor: "Multi-dimensional Grand Clock"
+  glass_morphic:
+    background: "rgba(15, 23, 42, 0.7)"
+    blur: "20px"
+    border: "rgba(255, 255, 255, 0.1)"
+
+# Generation Configuration
+generation:
+  provider: "fal"
+  asset_mode: "generate"
+  reference_mode: "semantic"
+  
+  visual_style:
+    art_direction: |
+      Premium iOS app marketing visuals with ethereal cosmic aesthetics. 
+      Deep space backgrounds with nebula gradients. Luminous 3D geometric 
+      forms floating in AR space. Glass-morphic UI elements with subtle glows. 
+      Clean Apple Design Award quality presentation. Spatial computing aesthetic.
+    
+    mood: "Awe-inspiring, contemplative, futuristic yet mystical"
+    lighting: "Soft volumetric lighting with subtle rim lights and ethereal glows"
+    composition: "Clean, centered, generous negative space, Apple product photography style"
+
+# Output Configuration
+output:
+  base_dir: "./astrolens-brand-outputs"
+  
+  assets:
+    - "2A-bento-grid"
+    - "2B-seal"
+    - "APP-ICON"
+    - "APP-STORE-SCREENSHOTS"
+    - "OG-IMAGE"
+    - "TWITTER-HEADER"
+    - "3A-hero"
+    - "3B-product-hero"
+    - "ARCHETYPE-POSTER"
+
+# Hydrated outputs
+hydrated:
+  buyer_persona:
+    name: "The Curious Seeker"
+    age_range: "25-40"
+    tech_savviness: "High"
+  positioning:
+    core_promise: "Enable anyone to visually understand their birth chart through immersive spatial computing"
+  voice:
+    tone: "grounded yet wondrous, technical yet accessible"
+
+logo_files:
+  primary: null
+  secondary: null
+  icon: null
+
+prompts: {}
+
+# Pipeline Configuration
+pipeline:
+  waves:
+    enabled:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+  budget_limit: 10.00
+  scenarios:
+    preferred: "bootstrapped-dtc"
+
+# Metadata
+meta:
+  version: "1.0.0"
+  created: "2024-03-29"
+  author: "AstroLens Team"
+  project_type: "iOS AR Application"

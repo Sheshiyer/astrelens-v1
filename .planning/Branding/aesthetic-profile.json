@@ -1,0 +1,40 @@
+{
+  "profile": {
+    "composition_density": 0.4475,
+    "temporal_register": 0.42749999999999994,
+    "material_richness": 0.47,
+    "visual_boldness": 0.5125,
+    "editorial_vs_commercial": 0.4775,
+    "dominant_register": "balanced-contemporary",
+    "confidence": 0.08,
+    "signal_sources": [
+      "archetype:sage",
+      "mood:premium",
+      "mood:mystical",
+      "mood:contemplative",
+      "mood:futuristic",
+      "material:glass",
+      "material:brass",
+      "material:acrylic",
+      "material:titanium",
+      "material:glass",
+      "voice:technical"
+    ],
+    "archetype_cluster": "sage-explorer"
+  },
+  "variant_selections": {
+    "2A": "standard_bento",
+    "2B": "oxidized_seal",
+    "2C": "stained_glass_emboss",
+    "3A": "architectural_lineup",
+    "3B": "contextual_hero",
+    "3C": "apothecary_vial",
+    "4A": "technical_catalog",
+    "4B": "precision_knolling",
+    "5A": "botanical_scientific",
+    "5B": "duotone_campaign",
+    "5C": "illustrative_scene",
+    "7A": "ritual_hands",
+    "8A": "seeker_split"
+  }
+}

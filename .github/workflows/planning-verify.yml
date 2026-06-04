@@ -1,0 +1,33 @@
+name: Planning Verify
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  planning-hygiene:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for local state files
+        run: |
+          set -euo pipefail
+          if find . -name '.DS_Store' -o -name '.brandmint-state.json' -o -name '.brandmint-state.yaml' -o -name 'notebooklm-state.json' | grep -q .; then
+            echo "Local state files found"
+            find . -name '.DS_Store' -o -name '.brandmint-state.json' -o -name '.brandmint-state.yaml' -o -name 'notebooklm-state.json'
+            exit 1
+          fi
+      - name: Check for obvious secrets
+        run: |
+          set -euo pipefail
+          if grep -RInE '(API[_-]?KEY|SECRET|TOKEN|PASSWORD|BEGIN (RSA|OPENSSH|PRIVATE) KEY|ghp_[A-Za-z0-9_]{20,}|gho_[A-Za-z0-9_]{20,}|sk-[A-Za-z0-9]{20,})' . --exclude-dir=.git --exclude=planning-verify.yml; then
+            echo "Potential secret pattern found"
+            exit 1
+          fi
+      - name: Confirm canonical planning files
+        run: |
+          test -f .planning/Docs/tasks.md
+          test -f .planning/Docs/astro_lens_flagship_product_spec.md
+          test -f .planning/Branding/ASTROLENS-BRAND-GUIDELINES.md
+          test -f tasks/todo.md
+          test -f tasks/lessons.md
