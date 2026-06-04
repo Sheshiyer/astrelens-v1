@@ -9,10 +9,10 @@
 - [x] Add root `README.md`, `AGENTS.md`, and `.gitignore`.
 - [x] Add GitHub issue/PR templates and planning verification workflow.
 - [x] Add shared contract packet and issue mapping docs.
-- [ ] Run public safety scan before initial push.
-- [ ] Commit and push initial repo seed.
-- [ ] Create GitHub milestones, labels, and task issues.
-- [ ] Verify clean remote and clean clone access.
+- [x] Run public safety scan before initial push.
+- [x] Commit and push initial repo seed.
+- [x] Create GitHub milestones, labels, and task issues.
+- [x] Verify clean remote and clean clone access.
 
 ## Phase 1 - Foundation Contract Freeze
 
@@ -23,5 +23,7 @@
 
 ## Review Log
 
-- Pending initial push and GitHub issue sync.
-
+- 2026-06-05: Public repo `Sheshiyer/astrelens-v1` created and seeded from sanitized `.planning` sources.
+- 2026-06-05: Initial commit pushed to `main`; `Planning Verify` completed successfully on GitHub Actions.
+- 2026-06-05: GitHub sync completed with 7 milestones, 44 labels, and 52 issues: 3 bootstrap issues plus 49 product task-card issues.
+- 2026-06-05: Fresh clone verification passed for `.planning/Docs/tasks.md`, `tasks/todo.md`, and `docs/swarm/shared-contract-packet.md`.
