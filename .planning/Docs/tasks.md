@@ -164,7 +164,7 @@ Required Verification Tasks:
 
 ## Task Cards
 ### [T-FND-001] [Foundation] Initialize iOS project and targets
-Status: TODO
+Status: REVIEW
 Priority: P0
 DependsOn: none
 Estimate: 45m
